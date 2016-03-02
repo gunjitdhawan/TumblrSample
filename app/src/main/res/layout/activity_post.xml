@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="in.grappes.testapp.Activities.PostActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/post_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/blog_details"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/add_new_post_button"
+        android:text="@string/add_post_button_text"
+        android:layout_alignParentBottom="true"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:background="@android:color/holo_blue_dark"/>
+
+
+</RelativeLayout>

@@ -42,10 +42,14 @@ public class MainActivity extends AppCompatActivity {
 
         initializeRecyclerView();
 
+    }
+
+    @Override
+    public void onResume()
+    {
+        super.onResume();
         AsyncTaskRunner runner = new AsyncTaskRunner();
         runner.execute("");
-
-
 
     }
 
